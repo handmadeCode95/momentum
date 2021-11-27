@@ -30,6 +30,7 @@
 
 .header__todo-input {
 	width: 320px;
+	margin-bottom: 10px;
 }
 
 .header__todo-list li {
