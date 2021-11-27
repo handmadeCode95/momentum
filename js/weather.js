@@ -29,7 +29,8 @@ function onGeoOk(position) {
 };
 
 function onGeoErr() {
-	alert("Cant't find you. No weather for you");
+	const weather = document.querySelector("#weather");
+	weather.innerText = "Can't find you. No weather for you";
 };
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoErr);

@@ -1,1 +1,1 @@
-# JS/CSS/HTML Momentum Clone
+# JS/CSS/HTML Momentum App Clone
