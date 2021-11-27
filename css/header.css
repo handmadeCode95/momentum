@@ -1,0 +1,63 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	box-sizing: border-box;
+	top: 40px;
+	padding: 0 20px;
+}
+
+@keyframes fadeIn {
+	from {
+		transform: translateX(-10px);
+		opacity: 0;
+	} to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		transform: none;
+		opacity: 1;
+	} to {
+		transform: translateX(-10px);
+		opacity: 0;
+	}
+}
+
+.header__todo-input {
+	width: 320px;
+}
+
+.header__todo-list li {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	animation: fadeIn 0.3s ease-in;
+}
+
+.header__todo-list .fade-out {
+	animation: fadeOut 0.3s ease-in forwards;
+}
+
+.header__todo-list li i {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.header__weather {
+	height: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.header__weather-icon {
+	font-size: 25px;
+}
+
+.header__weather-temp {
+	margin: 0 8px;
+}
