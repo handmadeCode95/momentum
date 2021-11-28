@@ -6,12 +6,23 @@
 	bottom: 40px;
 }
 
+@keyframes fadeInQuote {
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
 .footer__quote {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	margin: 0 20px;
+	animation: fadeInQuote 0.3s ease-in;
 }
 
 .footer__quote span {
