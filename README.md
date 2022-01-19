@@ -1,5 +1,7 @@
 # The Dark Knight Momentum
-> Javascript / HTML / CSS 를 이용한 크롬 인기 확장 프로그램 Momentum 클론 코딩
+> * https://handmadecode95.github.io/momentum/
+> * 크롬 인기 확장 프로그램 'Momentum' 클론 코딩
+> * Javascript/HTML/CSS
 ---------------------
 ## 기능 설명
 1. 시계
